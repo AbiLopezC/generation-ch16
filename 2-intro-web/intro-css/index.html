@@ -1,38 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- prioridad cero -->
     <style type="text/css" media="all">
-*{
-    front-size: 1er;
+      * {
+        font-size: 1rem; /* ajusta tamaño de texto  */
+      }
+      p.aviso {
+        color: cornflowerblue;
+      }
 
-}
-p{
-    color:cornflowerblue
-}
+      /* <!-- 
+    elector de clase --> */
 
-div.nuevo{
-    color: #f0a;;
-}
+      div.nuevo {
+        color: rgb(69, 9, 9);
+      }
+    </style>
+    <style>
+      *.univ1 {
+        color: chartreuse;
+      }
     </style>
 
-<!-- 
-    <link rel="stylesheet" href="style.css"> 
--->
-    
-</head>
-<body>
-    <br>
-    <h1> esto es una prueba</h1>
-<div class="nuevo" > 
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Accusamus doloribus quibusdam, <br>  facere odio culpa soluta necessitatibus fuga, <br> rerum voluptatum voluptatem dolores dicta aperiam nemo <br> praesentium sed officia maxime sunt sequi?
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/selector.css" />
+    <!-- selector ID, E#e, #-->
 
-</div>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    <style>
+      P#alm1 {
+        color: darkorange;
+      }
+    </style>
+    <style>
+      p#alm2 {
+        color: blue;
+      }
+    </style>
+    <style>
+      *#alm3 {
+        color: darkolivegreen;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="alm3">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+      magnam ad odit dicta obcaecati! Incidunt officia odio ipsum recusandae
+      reiciendis architecto. Iusto et quo reprehenderit quos sit, iure quidem
+      quod.
     </p>
-</body>
+    <p id="alm1">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+      magnam ad odit dicta obcaecati! Incidunt officia odio ipsum recusandae
+      reiciendis architecto. Iusto et quo reprehenderit quos sit, iure quidem
+      quod.
+    </p>
+
+    <br />
+    <h1>esto es una prueba</h1>
+
+    <div class="univ1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium
+      accusantium dolor consectetur vero sequi. Repellat cum ducimus nisi optio
+      commodi sit sunt sequi, nostrum facilis ex placeat consequatur eveniet?
+    </div>
+
+    <!--primer selector de clase-->
+    <div class="nuevo">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
+      Accusamus doloribus quibusdam, <br />
+      facere odio culpa soluta necessitatibus fuga, <br />
+      rerum voluptatum voluptatem dolores dicta aperiam nemo <br />
+      praesentium sed officia maxime sunt sequi?
+    </div>
+    <!--selector de clkase E.e -->
+    <p class="aviso">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <!-- ver las diferencias al ponerlo en parrafos o listas  -->
+    <div class="lista">
+      <ul>
+        <!-- ul es para listas -->
+        <li>
+          <!-- este da el marker (el puntito de la lista) -->
+          esto es una lista
+
+          <p>esto es otro parrafo interno</p>
+        </li>
+        <p>este es otro parrafo</p>
+      </ul>
+      <p>este es otro parrafo</p>
+    </div>
+  </body>
 </html>
