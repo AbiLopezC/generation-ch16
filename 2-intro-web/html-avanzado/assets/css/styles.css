@@ -1,0 +1,39 @@
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style: decimal ;
+}
+
+h1 {
+    background-color: rgba(148, 0, 211, 0.581);
+    width: fit-content;
+}
+
+div{
+    display: inline-block;
+    background-color: aqua;
+    width: 200px;
+    height: 100px; 
+}
+
+a{
+    display: flex;
+    background-color: chartreuse;
+    width: 200px;
+    height: 50px;
+    border: 1px;
+}
+
+span{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: dotted cornflowerblue;
+    background-color: darkorchid;
+
+}
+/* .sub{
+    border: 3px dotted red;
+} */
