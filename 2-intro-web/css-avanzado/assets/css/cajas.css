@@ -1,0 +1,42 @@
+.cuadro{
+   /* 1 rem =16px dependen de la raiz=html */
+   /* 1 em=16px toman la unidad del padre */
+    height: 10em;
+    width: 10em
+    ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border: 2px solid yellow;
+    padding: 20px;
+
+    
+}
+
+.el-1{
+    background-color: antiquewhite;
+    /* position: fixed; */
+}
+.el-2{
+    background-color: rgb(149, 102, 41);
+    position: sticky;
+    top:0;
+
+/*     position: absolute;
+    bottom:0;
+    right:100px; */
+}
+.el-3{
+    background-color: rgb(26, 204, 26);
+   /*  position: relative;
+    bottom:0;
+    left: 100px; */
+}
+.el-4{
+    background-color: rgb(156, 101, 67);
+}
+.el-5{
+    background-color: rgb(144, 40, 80);
+}
