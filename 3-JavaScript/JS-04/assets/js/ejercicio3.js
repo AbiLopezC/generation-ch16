@@ -3,7 +3,7 @@
 – Repeatedly print the value of the variable xValue, decreasing it by 0.5 each time,
 as long as xValue remains positive.
 */
-/* let xValue= parseInt( prompt("ingrese un numero del 1 al 5"));
+/* let xValue= parseInt( prompt("ingrese un numero"));
 console.log(xValue);
 
 while(xValue>0)
@@ -31,12 +31,13 @@ while(numero<100)
 For example, if n = 6 print [1] [2] [3] [4] [5] [6] */
 
 /* let numero2= parseInt (prompt("ingrese un numero"));
-console.log(`[${numero2}]`);
-while(numero2>0){
-    numero2-=1;
-    console.log(`[ ${numero2}]`);
-} */
+let cuenta=0;
 
+while(cuenta<numero2){
+    cuenta=cuenta+1;
+    console.log(`[ ${cuenta}]`);
+}
+ */
 
 /* 
 - Write a method with a while loop that computes the sum of first n positive integers: 
