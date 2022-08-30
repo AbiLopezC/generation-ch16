@@ -2,14 +2,15 @@ package h_abstracta;
 
 public class Triangulo extends FIgurasGeometricas{
 
+
+
     private float base;
     private float altura;
 
-    //constructor
-    public Triangulo() {
-    }
+
 
     public Triangulo(float base, float altura) {
+        super("Triangulo");
         this.base = base;
         this.altura = altura;
     }

@@ -4,14 +4,16 @@ public class Circulo extends FIgurasGeometricas{
 private float radio;
 
 
-    public Circulo() {
-    }
+
 
     public Circulo(float radio) {
+
+        super ("Circulo");
         this.radio = radio;
     }
 
     public float getRadio() {
+
         return radio;
     }
 
