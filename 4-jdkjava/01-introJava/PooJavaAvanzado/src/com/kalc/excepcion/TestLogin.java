@@ -3,7 +3,7 @@ package com.kalc.excepcion;
 public class TestLogin {
 
     public static void main(String[] args) {
-        //try {
+        try {
         Aplicacion app = new Aplicacion();
 // intento el login
         Usuario u = app.login("juan", "juan123sito");
@@ -11,11 +11,11 @@ public class TestLogin {
         System.out.println("\t\t -->" + u.getNombre());
         System.out.println("\t\t -->" + u.getEmail());
 
-       /* } catch (Exception ex) {
+       } catch (Exception ex) {
 // ocurrio un error
             System.out.print("Servicio temporalmente interrumpido: ");
             System.out.println(ex.getMessage());
-        }*/
+        }
     }
 }
 
