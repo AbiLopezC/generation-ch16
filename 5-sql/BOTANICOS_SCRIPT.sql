@@ -1,7 +1,7 @@
 -- creacion de la base de datos
 CREATE DATABASE botanicos;
 USE botanicos;
--- DROP DATABASE botanicos;
+DROP DATABASE botanicos;
 
 -- creacion de las tablas
 CREATE TABLE cliente(
